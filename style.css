@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 5em 0 0 0;
+}
+
+button{
+    padding: 10px 20px ;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 20px 0 0 0;
+}
+
+button:hover{
+    border: solid 1px transparent;
+    box-shadow: 0 9px #999;
+}
+
+button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
